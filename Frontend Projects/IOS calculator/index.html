@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="display" value="0" disabled/><br>
+            <button onclick="erase()">AC</button>
+            <button onclick="neg('-')">+/-</button>
+            <button onclick="calc('%')">%</button>
+            <button style="background: #f5b624; color: white;" onclick="calc('/')">/</button><br>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(7)">7</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(8)">8</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(9)">9</button>
+            <button style="background: #f5b624; color: white;" onclick="calc('*')">x</button><br>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(4)">4</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(5)">5</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(6)">6</button>
+            <button style="background: #f5b624; color: white;" onclick="calc('-')">-</button><br>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(1)">1</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(2)">2</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(3)">3</button>
+            <button style="background: #f5b624; color: white;" onclick="calc('+')">+</button><br>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc(0)" id="zero">0</button>
+            <button style="background: rgb(88, 87, 87); color: white;" onclick="calc('.')">.</button>
+            <button style="background: #f5b624; color: white;" onclick="equal()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

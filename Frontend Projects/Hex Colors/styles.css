@@ -1,0 +1,26 @@
+*{
+    font-family: Poppins,sans-serif;
+}
+.container {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hex-color h1{
+    animation: colorChange 5s infinite alternate;
+}
+.hex-color h2{
+    margin-top: 15vh;
+}
+
+@keyframes colorChange{
+    0%   {color:#FF6F61;}
+    20%   {color:#1F8F61;}
+    40%   {color:cadetblue;}
+    60%   {color:darkgoldenrod;}
+    80%   {color:indigo;}
+    100%   {color:pink;}
+}
